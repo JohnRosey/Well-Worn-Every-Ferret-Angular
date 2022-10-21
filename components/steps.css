@@ -1,0 +1,296 @@
+.steps-steps {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.steps-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.steps-step {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-step1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-image {
+  width: 200px;
+  object-fit: cover;
+}
+.steps-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.steps-text {
+  align-self: center;
+}
+.steps-text01 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.steps-step2 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-container2 {
+  width: 247px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.steps-step3 {
+  width: 238px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-image1 {
+  width: 203px;
+  object-fit: cover;
+}
+.steps-text04 {
+  align-self: center;
+}
+.steps-text05 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  align-self: center;
+  text-align: center;
+}
+.steps-step4 {
+  width: 218px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.steps-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.steps-text06 {
+  align-self: center;
+}
+.steps-text07 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.steps-step5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-image3 {
+  width: 203px;
+  object-fit: cover;
+}
+.steps-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.steps-text08 {
+  align-self: center;
+}
+.steps-text09 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  text-align: center;
+}
+.steps-step6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-container5 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.steps-step7 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-step8 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.steps-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 2px;
+  padding-right: 2px;
+  flex-direction: row;
+  justify-content: center;
+}
+.steps-line {
+  flex: 1;
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+  border-color: transparent;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: row;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+@media(max-width: 767px) {
+  .steps-steps {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .steps-container {
+    align-items: flex-start;
+    padding-left: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+  }
+  .steps-step {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-step1 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-text01 {
+    text-align: left;
+  }
+  .steps-step2 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-step3 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-text05 {
+    text-align: left;
+  }
+  .steps-step4 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-text07 {
+    text-align: left;
+  }
+  .steps-step5 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-text09 {
+    text-align: left;
+  }
+  .steps-step6 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-container5 {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: space-between;
+  }
+  .steps-step7 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-step8 {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .steps-container6 {
+    width: var(--dl-size-size-small);
+    height: auto;
+    align-self: stretch;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    padding-bottom: 2px;
+    justify-content: space-between;
+  }
+  .steps-line {
+    border-color: transparent;
+    border-style: dashed;
+    border-top-width: 0px;
+    border-left-width: 2px;
+  }
+}
+@media(max-width: 479px) {
+  .steps-steps {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .steps-container {
+    padding-left: 0px;
+  }
+  .steps-container5 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
